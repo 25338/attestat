@@ -3,7 +3,9 @@ $scrname=$_SERVER['SCRIPT_NAME']; if($scrname!='/index.php') { exit;}
 
 include "admhead.php";
 ?>
-<div style="height:30px;" ></div>
+<div style="height:50px;"></div>
+<h2><center class="text-danger">AC "<?=$kw["title_site"];?>"</center></h2>
+<div style="height:30px;"></div>
 <div class="form-group shadow " style="border:1px solid #eee; padding:10px 30px;width: 330px;text-align:center;margin:auto; ">
 	<form method="POST" >
 		<h2 style="color:#666;"><? echo $kw["autorization"];?></h2>
